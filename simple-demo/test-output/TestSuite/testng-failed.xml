@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.automation.demo.simple_demo.ExtentTestListener"/>
+  </listeners>
+  <test name="GoogelSearchTest(failed)">
+    <classes>
+      <class name="com.automation.demo.simple_demo.GoogleSearchTest">
+        <methods>
+          <include name="verifySearchWorks"/>
+          <include name="verifyGooglePageTitle"/>
+          <include name="pageSetup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.automation.demo.simple_demo.GoogleSearchTest -->
+    </classes>
+  </test> <!-- GoogelSearchTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

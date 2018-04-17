@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="false">
+		
+    <listeners>
+        <listener class-name="com.automation.demo.utility_code.ExtentTestListener"/>
+    </listeners>
+    
+	<test name="GoogelSearchTest">
+		<classes>		
+			<class
+				name="com.automation.demo.simple_demo.GoogleSearchTest" />
+		</classes>
+	</test>
+	
+</suite>
+
+
+
