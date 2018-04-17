@@ -6,8 +6,9 @@ In this project we are running test against headless chrome browser. We are doin
 
 
 Test Strategy and Framework:
-This project is maven based java project. We are using TestNG as testing framework. 
-
+This project is maven based java project. We are using TestNG as testing framework. Project has two packages:
+1) simple_demo: This has test that runs against headless chrome browser.
+2) utility_code: This has helper classes/methods like Extent Report class and Listener for Reporting purpose and TakeScreenshot Class for taking screenshots whenever failure occures.
 
 
 How to run the test:
