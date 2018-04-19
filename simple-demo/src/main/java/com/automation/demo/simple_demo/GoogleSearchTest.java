@@ -24,6 +24,8 @@ public class GoogleSearchTest extends ExtentManager{
 	public static WebDriver driver;
 	private static String baseUrl = "http://google.com";
 	private static String expectedTitle = "Google";
+	private static WebElement element = null;
+	private static WebElement linkText = null;
 
 	/**
 	 * Set up headless chrome driver and load the provided baseUrl.
@@ -61,17 +63,16 @@ public class GoogleSearchTest extends ExtentManager{
 	@Test(dependsOnMethods = "verifyGooglePageTitle")
 	public void verifySearchWorks() {
 		test = extent.createTest("verifySearchWorks");
-		WebElement element = driver.findElement(By.name("q"));
+		element = driver.findElement(By.name("q"));
 		element.sendKeys("selenium");
 		element.submit();
-		(new WebDriverWait(driver, 10)).until(ExpectedConditions
+		linkText = (new WebDriverWait(driver, 10)).until(ExpectedConditions
 				.presenceOfElementLocated(By.xpath("//a[contains(text(),'Selenium - Web Browser Automation')]")));
-		WebElement linkText = driver.findElement(By.xpath("//a[contains(text(),'Selenium - Web Browser Automation')]"));
 		linkText.click();
 		String pageTitle = driver.getTitle();
 		Assert.assertEquals("Selenium - Web Browser Automation", pageTitle);
 	}
-
+    
 	
 	/**
 	 * Tear down method.Closes selenium webdriver session.

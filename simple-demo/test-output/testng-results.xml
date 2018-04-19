@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="7101" started-at="2018-04-14T18:40:07Z" finished-at="2018-04-14T18:40:14Z">
+  <suite name="TestSuite" duration-ms="6955" started-at="2018-04-19T18:19:08Z" finished-at="2018-04-19T18:19:15Z">
     <groups>
     </groups>
-    <test name="GoogelSearchTest" duration-ms="7101" started-at="2018-04-14T18:40:07Z" finished-at="2018-04-14T18:40:14Z">
+    <test name="GoogelSearchTest" duration-ms="6955" started-at="2018-04-19T18:19:08Z" finished-at="2018-04-19T18:19:15Z">
       <class name="com.automation.demo.simple_demo.GoogleSearchTest">
-        <test-method status="PASS" signature="pageSetup()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="pageSetup" is-config="true" duration-ms="3988" started-at="2018-04-14T14:40:07Z" finished-at="2018-04-14T14:40:11Z">
+        <test-method status="PASS" signature="pageSetup()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="pageSetup" is-config="true" duration-ms="4102" started-at="2018-04-19T14:19:08Z" finished-at="2018-04-19T14:19:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method status="PASS" signature="verifyGooglePageTitle()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="verifyGooglePageTitle" duration-ms="13" started-at="2018-04-14T14:40:11Z" finished-at="2018-04-14T14:40:11Z">
+        <test-method status="PASS" signature="verifyGooglePageTitle()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="verifyGooglePageTitle" duration-ms="12" started-at="2018-04-19T14:19:13Z" finished-at="2018-04-19T14:19:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTitle -->
-        <test-method status="PASS" signature="verifySearchWorks()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="verifySearchWorks" duration-ms="2825" started-at="2018-04-14T14:40:11Z" depends-on-methods="com.automation.demo.simple_demo.GoogleSearchTest.verifyGooglePageTitle" finished-at="2018-04-14T14:40:14Z">
+        <test-method status="PASS" signature="verifySearchWorks()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="verifySearchWorks" duration-ms="2593" started-at="2018-04-19T14:19:13Z" depends-on-methods="com.automation.demo.simple_demo.GoogleSearchTest.verifyGooglePageTitle" finished-at="2018-04-19T14:19:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchWorks -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="tearDownClass" is-config="true" duration-ms="255" started-at="2018-04-14T14:40:14Z" finished-at="2018-04-14T14:40:14Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.demo.simple_demo.GoogleSearchTest@3327bd23]" name="tearDownClass" is-config="true" duration-ms="230" started-at="2018-04-19T14:19:15Z" finished-at="2018-04-19T14:19:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

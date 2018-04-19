@@ -1,0 +1,8 @@
+*.classpath
+*.project
+*.settings
+*test-output
+*Logger
+*target
+*.html
+*.png
