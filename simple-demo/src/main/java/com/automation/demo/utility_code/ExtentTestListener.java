@@ -10,7 +10,7 @@ import com.automation.demo.simple_demo.GoogleSearchTest;
 import com.aventstack.extentreports.Status;
 
 
-public class ExtentTestListener extends GoogleSearchTest implements ITestListener {
+public class ExtentTestListener extends ExtentManager implements ITestListener {
 	
 
 	private static String getTestMethodName(ITestResult iTestResult) {

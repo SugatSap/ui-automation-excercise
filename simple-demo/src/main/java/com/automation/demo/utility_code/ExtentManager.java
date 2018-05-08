@@ -2,6 +2,9 @@
 
 package com.automation.demo.utility_code;
 
+import org.apache.commons.lang3.time.StopWatch;
+import org.openqa.selenium.WebDriver;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -13,7 +16,9 @@ import com.aventstack.extentreports.reporter.configuration.Protocol;
  */
 public class ExtentManager {
 
+	public static StopWatch watch;
 	
+	public static WebDriver driver;
 	/** The extent. */
 	public static ExtentReports extent;
 	
@@ -44,7 +49,6 @@ public class ExtentManager {
 	 * file path are added here
 	 */
 	public static ExtentHtmlReporter getHtmlReporter() {
-
 		/*
 		 * String timeStamp = new
 		 * SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(Calendar.getInstance()

@@ -20,8 +20,6 @@ import com.automation.demo.utility_code.ExtentManager;
 
 public class GoogleSearchTest extends ExtentManager{
 
-	public static StopWatch watch;
-	public static WebDriver driver;
 	private static String baseUrl = "http://google.com";
 	private static String expectedTitle = "Google";
 	private static WebElement element = null;
