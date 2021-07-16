@@ -1,4 +1,4 @@
-### Demo UI Test Project for MarkForged.
+### Demo UI Test Project for FoundationMedicine.
 In this project we are running test against chrome browser. We are verifying below functionalities:
 1) Search “Application of Whole Exome Sequencing to Identify Disease-Causing Variants in Inherited Human Diseases” on google and load the journal within https://pubmed.ncbi.nlm.nih.gov/ which has an author “Gerald Goh”. Verify if co-author exist and display the co-author's name.
 2) Verify there are four menu items under google search result Menu dropdown. Select the 2nd item within the More drop-down list on the page and Output the Screen Capture . 
